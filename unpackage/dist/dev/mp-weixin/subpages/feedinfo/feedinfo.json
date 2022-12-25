@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "动态详情",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "u-avatar": "/uni_modules/uview-ui/components/u-avatar/u-avatar",
+    "comment": "/components/comment/comment"
+  }
+}

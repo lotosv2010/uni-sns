@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.feed-user.data-v-c4c7161c {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  margin: 20rpx 0 0 25rpx;
+}
+.feed-user .info.data-v-c4c7161c {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: left;
+  margin-left: 20rpx;
+  font-size: 24rpx;
+  font-weight: bolder;
+  color: #1f2046;
+}
+.feed-info.data-v-c4c7161c {
+  width: 700rpx;
+  margin-top: 20rpx;
+  margin-left: 25rpx;
+  text-align: center;
+  padding-bottom: 10rpx;
+}
+.feed-info .title.data-v-c4c7161c {
+  font-size: 32rpx;
+  margin-bottom: 30rpx;
+  text-align: left;
+  line-height: 52rpx;
+  color: #666;
+}
+.feed-info .feed-imgs.data-v-c4c7161c {
+  margin: 5rpx 0;
+  width: 100%;
+}
+.feed-info .other.data-v-c4c7161c {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 40rpx 0 20rpx;
+  font-size: 24rpx;
+  color: #888;
+}
+.feed-info .other .micon.data-v-c4c7161c {
+  padding: 10rpx 20rpx;
+}
+.line.data-v-c4c7161c {
+  height: 30rpx;
+  width: 750rpx;
+  background-color: #f3f3f3;
+}
+

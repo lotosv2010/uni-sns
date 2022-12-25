@@ -1,0 +1,291 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+#sns.data-v-57280228 {
+  background-color: #f1f1f1;
+}
+.tabs-box.data-v-57280228 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 750rpx;
+}
+.tabs-box .one-nav.data-v-57280228 {
+  width: 120rpx;
+  color: #9b9b9b;
+  font-size: 36rpx;
+  text-align: center;
+  font-weight: blod;
+}
+.tabs-box .one-nav.nav-actived.data-v-57280228 {
+  color: #0050ff;
+}
+.header-box.data-v-57280228 {
+  position: relative;
+  left: 0;
+  height: 500rpx;
+  background-color: #f1f1f1;
+  z-index: 1;
+}
+.header-box .swiper.data-v-57280228 {
+  width: 750rpx;
+  height: 400rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  z-index: 1;
+}
+.header-box .swiper .banner-swiper-img.data-v-57280228 {
+  width: 750rpx;
+  height: 400rpx;
+  box-shadow: 0 0 2px 0 #bcbcbc;
+}
+.header-box .crile.data-v-57280228 {
+  width: 750rpx;
+  height: 50rpx;
+  position: absolute;
+  left: 0;
+  top: 355rpx;
+  z-index: 9;
+}
+.header-box .card-header.data-v-57280228 {
+  position: absolute;
+  left: 0;
+  top: 320rpx;
+  height: 160rpx;
+  z-index: 99;
+  width: 710rpx;
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.header-box .card-header .card-one.data-v-57280228 {
+  width: 328rpx;
+  height: 96rpx;
+  border-radius: 49rpx;
+  background-color: #fff;
+  margin: 0 10rpx;
+  box-shadow: 0 0 2px 0 #bcbcbc;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+}
+.header-box .card-header .card-one .img.data-v-57280228 {
+  width: 44rpx;
+  height: 44rpx;
+  margin-left: 50rpx;
+}
+.header-box .card-header .card-one .iright.data-v-57280228 {
+  margin-left: 30rpx;
+  text-align: left;
+  color: #888;
+}
+.header-box .card-header .card-one .iright .title.data-v-57280228 {
+  font-size: 30rpx;
+  color: #001432;
+}
+.header-box .card-header .card-one .iright .iview.data-v-57280228 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  font-size: 20rpx;
+  margin-top: -5rpx;
+}
+.header-box .tabs-box.data-v-57280228 {
+  width: 750rpx;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 480rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.header-box .tabs-box .one-nav.data-v-57280228 {
+  height: 80rpx;
+  width: 110rpx;
+  color: #9b9b9b;
+  font-size: 36rpx;
+  text-align: center;
+  font-weight: blod;
+}
+.header-box .tabs-box .one-nav.nav-actived.data-v-57280228 {
+  color: #0050ff;
+}
+.swiper-box.data-v-57280228 {
+  background-color: #f1f1f1;
+  padding: 60rpx 0 40rpx;
+}
+.sns-now .feeds-box.data-v-57280228 {
+  width: 735rpx;
+  margin-left: 13rpx;
+  padding-bottom: 20rpx;
+}
+.sns-now .feeds-box .feed-one.data-v-57280228 {
+  width: 358rpx;
+  margin-bottom: 12rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+  position: relative;
+}
+.sns-now .feeds-box .feed-one .feed-img.data-v-57280228 {
+  width: 358rpx;
+  height: 300rpx;
+  border-radius: 10rpx;
+}
+.sns-now .feeds-box .feed-one .feed-title.data-v-57280228 {
+  width: 350rpx;
+  margin-top: 15rpx;
+  margin-left: 10rpx;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  color: #001432;
+  text-align: left;
+}
+.sns-now .feeds-box .feed-one .feed-info.data-v-57280228 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin-top: 10rpx;
+  font-size: 20rpx;
+  color: #666;
+  padding: 0 10rpx 16rpx;
+}
+.sns-now .feeds-box .feed-one .feed-info .iview.data-v-57280228 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.sns-now .feeds-box .feed-one .feed-info .iview .ilike.data-v-57280228 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  height: 60rpx;
+  padding: 0 10rpx;
+  background-color: #ffffff;
+}
+.sns-now .feeds-box .feed-one .feed-info .avatar.data-v-57280228 {
+  margin-right: 10rpx;
+  height: 40rpx;
+  width: 40rpx;
+  border-radius: 50%;
+  border: 1rpx solid #eee;
+}
+.sns-now .feeds-box .feed-one .feed-info .name.data-v-57280228 {
+  max-width: 120rpx;
+  color: #757474;
+}
+.sns-now .feeds-box .feed-one .feed-info .micon.data-v-57280228 {
+  width: 32rpx;
+  height: 28rpx;
+}
+.sns-now .feeds-box .feed-one .feed-info .love-count.data-v-57280228 {
+  padding-left: 10rpx;
+  color: #757474;
+}
+.sns-news.data-v-57280228 {
+  background-color: #fff;
+  width: 750rpx;
+}
+.sns-news .one-new.data-v-57280228 {
+  width: 700rpx;
+  height: 74px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 25rpx;
+  padding-right: 25rpx;
+  border-bottom: 1px solid #f1f1f1;
+}
+.sns-news .one-new .left.data-v-57280228 {
+  width: 490rpx;
+  height: 140rpx;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.sns-news .one-new .left .title.data-v-57280228 {
+  font-size: 30rpx;
+  line-height: 42rpx;
+  color: #001432;
+  margin-top: 21rpx;
+}
+.sns-news .one-new .left .uinfo.data-v-57280228 {
+  width: 490rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin-top: 6rpx;
+  font-size: 20rpx;
+  color: #999;
+}
+.sns-news .one-new .left .uinfo .utime.data-v-57280228 {
+  font-size: 24rpx;
+}
+.sns-news .one-new .left .uinfo .utime .name.data-v-57280228 {
+  max-width: 120rpx;
+  color: #777;
+}
+.sns-news .one-new .right.data-v-57280228 {
+  width: 120rpx;
+}
+.sns-news .one-new .right .pic.data-v-57280228 {
+  width: 120rpx;
+  height: 120rpx;
+  margin-top: 20rpx;
+  border-radius: 6rpx;
+}
+

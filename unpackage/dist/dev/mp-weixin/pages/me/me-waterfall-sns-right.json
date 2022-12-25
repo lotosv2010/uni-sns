@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "me-waterfall-sns-left": "/pages/me/me-waterfall-sns-left",
+    "me-waterfall-sns-right": "/pages/me/me-waterfall-sns-right",
+    "u-avatar": "/uni_modules/uview-ui/components/u-avatar/u-avatar",
+    "login": "/components/login/login",
+    "waterfall-sns": "/components/waterfall-sns/index"
+  }
+}

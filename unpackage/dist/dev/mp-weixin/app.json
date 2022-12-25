@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/feeds/feeds",
+    "pages/me/me",
+    "pages/webview/webview"
+  ],
+  "subPackages": [
+    {
+      "root": "subpages",
+      "pages": [
+        "feedinfo/feedinfo",
+        "newinfo/newinfo",
+        "setting/setting",
+        "share/share"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#0050FF",
+    "list": [
+      {
+        "iconPath": "/static/tabbar-icons/index.png",
+        "selectedIconPath": "/static/tabbar-icons/index_s.png",
+        "text": "首页",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "iconPath": "/static/tabbar-icons/feeds.png",
+        "selectedIconPath": "/static/tabbar-icons/feeds_s.png",
+        "text": "动态",
+        "pagePath": "pages/feeds/feeds"
+      },
+      {
+        "iconPath": "/static/tabbar-icons/me.png",
+        "selectedIconPath": "/static/tabbar-icons/me_s.png",
+        "text": "我的",
+        "pagePath": "pages/me/me"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-nav-bar": "/components/uni-nav-bar/index",
+    "login": "/components/login/login",
+    "goto-share": "/components/gotoShare/gotoShare"
+  }
+}
